@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e6ce3736546f45b4dbfe9de98d39cdb3
+  - enabled: 1
+    path: Assets/Scenes/Character/Character.unity
+    guid: 89c73e5f6dd700045a83b4a09e0dbe24
+  - enabled: 1
+    path: Assets/Scenes/Map/Map.unity
+    guid: da68959cb806dde48bdaed8058afe1f5
+  - enabled: 1
+    path: Assets/Scenes/Map/Mart.unity
+    guid: bff470e1fd133de43bab1540973817b0
+  - enabled: 1
+    path: Assets/Scenes/Map/School.unity
+    guid: b2a5952f05fc78a4b890500b28ff50a0
+  - enabled: 1
+    path: Assets/Scenes/Loading/LoadingCharacter.unity
+    guid: a8df4b5103b295447801882452fbeaf0
+  - enabled: 1
+    path: Assets/Scenes/Loading/Loadingmap.unity
+    guid: 28c3df0db7817f946a2cd72c8734bc1f
+  - enabled: 1
+    path: Assets/Scenes/Loading/LoadingMart.unity
+    guid: 8a55e05424087514e8b551df7a3494cf
+  - enabled: 1
+    path: Assets/Scenes/Loading/LoadingSchool.unity
+    guid: 646483440352ba1479e81d4938ad1546
+  m_configObjects: {}
