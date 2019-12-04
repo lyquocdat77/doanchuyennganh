@@ -21,12 +21,7 @@ public class thoigian : MonoBehaviour
         
     }
 
-    public void savedata(string nextscenes)
-    {
-        gamedata.tgdata.Save(this);
-        Application.LoadLevel(nextscenes);
-
-    }
+   
 
 
 }

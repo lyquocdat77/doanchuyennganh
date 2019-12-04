@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class time : MonoBehaviour
 {
     public thoigian tg;
+    public character cha;
 
 
     // Start is called before the first frame update
@@ -26,6 +27,18 @@ public class time : MonoBehaviour
         if (tg.Time == 8)
         {
             tg.Time = 0;
+            if (cha.food > 0)
+            {
+                cha.food -= 10;
+            }
+            else
+            {
+                if (cha.health > 0)
+                {
+                    cha.health -= 10;
+      
+                }
+            }
         }
     }
 

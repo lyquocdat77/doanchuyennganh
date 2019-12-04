@@ -7,11 +7,12 @@ public class loaddata : MonoBehaviour
 {
     public string nextScene;
     private string TIME_DATA = "time_data";
-    private string CHARACTER_DATA = "character_data";
+    private string CHARACTER_DATA = "cha_data";
 
     private void Awake()
     {
         LoadTimeData();
+        LoadCharacterData();
         // Chuyển sang Scene khác sau khi load dữ liệu xong
         Application.LoadLevel(nextScene);
     }
@@ -39,11 +40,11 @@ public class loaddata : MonoBehaviour
         // Nếu chuỗi string null hoặc rỗng thì sẽ tạo một data mới với các giá trị mặc định
         if (string.IsNullOrEmpty(ch))
         {
-            gamedata.tgdata = new thoigiandata();
+            gamedata.chadata = new characterdata();
             return;
 
         }
         // Dùng JsonDotNet convert dữ liệu từ string sang object
-        gamedata.tgdata = JsonUtility.FromJson<thoigiandata>(ch);
+        gamedata.chadata = JsonUtility.FromJson<characterdata>(ch);
     }
 }

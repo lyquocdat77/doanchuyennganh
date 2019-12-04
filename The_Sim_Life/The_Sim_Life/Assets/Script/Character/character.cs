@@ -31,4 +31,7 @@ public class character : MonoBehaviour
         money = gamedata.chadata.money;
 
     }
+
+   
+
 }

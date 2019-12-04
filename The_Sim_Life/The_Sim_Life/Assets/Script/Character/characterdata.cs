@@ -10,15 +10,15 @@ public class characterdata
     public int appearance;
     public int iq;
     public int money;
-    private string CHARACTER_DATA = "character_data";
+    private string CHARACTER_DATA = "cha_data";
 
     public characterdata()
     {
-        food = 0;
-        health = 0;
-        emotion = 0;
-        appearance = 0;
-        iq = 0;
+        food = 100;
+        health = 30;
+        emotion = 1;
+        appearance = 10;
+        iq = 10;
         money = 0;
     }
 
