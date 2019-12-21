@@ -67,10 +67,17 @@
     <Compile Include="Assets\Script\Character\characterdata.cs" />
     <Compile Include="Assets\Script\Character\show_character_index.cs" />
     <Compile Include="Assets\Script\Character_indextest.cs" />
+    <Compile Include="Assets\Script\congfood.cs" />
     <Compile Include="Assets\Script\listview_Food.cs" />
     <Compile Include="Assets\Script\Map.cs" />
     <Compile Include="Assets\Script\Mart_item.cs" />
     <Compile Include="Assets\Script\Menu.cs" />
+    <Compile Include="Assets\Script\realtime\loadrestimedata.cs" />
+    <Compile Include="Assets\Script\realtime\quitandsave.cs" />
+    <Compile Include="Assets\Script\realtime\realtime.cs" />
+    <Compile Include="Assets\Script\realtime\restime.cs" />
+    <Compile Include="Assets\Script\realtime\restimedata.cs" />
+    <Compile Include="Assets\Script\realtime\xulythoigiannghi.cs" />
     <Compile Include="Assets\Script\savealldata.cs" />
     <Compile Include="Assets\Script\scenes_controll.cs" />
     <Compile Include="Assets\Script\School_changeIndex.cs" />

@@ -6,4 +6,5 @@ public class gamedata
 {
     public static thoigiandata tgdata;
     public static characterdata chadata;
+    public static restimedata rtdata;
 }
